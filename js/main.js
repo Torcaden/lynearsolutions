@@ -8,11 +8,22 @@
   "use strict";
 
   /* ── Elements ── */
+  const logoLink    = document.getElementById("logo-link");
   const navToggle   = document.getElementById("nav-toggle");
   const mobileMenu  = document.getElementById("mobile-menu");
   const navLinks    = document.querySelectorAll(".nav-link");
   const mobileLinks = document.querySelectorAll(".mobile-nav-link");
   const sections    = document.querySelectorAll("main section[id]");
+
+  /* ════════════════════════════════════════════
+   * 0. Logo click — smooth scroll to top
+   * ════════════════════════════════════════════ */
+  if (logoLink) {
+    logoLink.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
 
   /* ════════════════════════════════════════════
    * 1. Smooth scroll for all anchor links

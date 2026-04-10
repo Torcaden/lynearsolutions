@@ -11,21 +11,17 @@
   vertical-align: middle;
 }
 
-/* ── Prevent horizontal overflow from background blurs ── */
+/* ── Prevent horizontal overflow from background blurs + smooth scroll ── */
 html {
   overflow-x: hidden;
   max-width: 100vw;
+  scroll-behavior: smooth;
 }
 body {
   overflow-x: hidden;
   max-width: 100%;
   overflow-wrap: break-word;
   word-wrap: break-word;
-}
-
-/* ── Smooth scroll (JS also handles this, CSS is the progressive fallback) ── */
-html {
-  scroll-behavior: smooth;
 }
 
 /* ── Scroll offset for fixed nav (~72px tall) ── */

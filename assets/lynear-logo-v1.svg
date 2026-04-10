@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" role="img" aria-label="Lynear Solutions">
+  <defs>
+    <linearGradient id="v1-y-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#00D9FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- LYNEAR wordmark -->
+  <!-- L -->
+  <text
+    x="12"
+    y="46"
+    font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    font-size="42"
+    font-weight="600"
+    letter-spacing="-0.5"
+    fill="#FFFFFF">L</text>
+
+  <!-- Y — gradient fill, same weight -->
+  <text
+    x="36"
+    y="46"
+    font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    font-size="42"
+    font-weight="600"
+    letter-spacing="-0.5"
+    fill="url(#v1-y-grad)">Y</text>
+
+  <!-- NEAR -->
+  <text
+    x="62"
+    y="46"
+    font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    font-size="42"
+    font-weight="600"
+    letter-spacing="-0.5"
+    fill="#FFFFFF">NEAR</text>
+
+  <!-- Solutions -->
+  <text
+    x="14"
+    y="65"
+    font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    font-size="13"
+    font-weight="300"
+    letter-spacing="3.5"
+    fill="#A0A0C0">SOLUTIONS</text>
+</svg>
